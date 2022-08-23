@@ -32,15 +32,18 @@ function SignInButton() {
   };
 
   return (
-    <button onClick={signInWithGoogle}>
-      <p>SignIn</p>
-    </button>
+    <>
+      <h1 className="title">My closet</h1>
+      <button className="btn" onClick={signInWithGoogle}>
+        <p>SignIn</p>
+      </button>
+    </>
   );
 }
 
 function SignOutButton() {
   return (
-    <button onClick={() => auth.signOut()}>
+    <button className="btn" onClick={() => auth.signOut()}>
       <p>SingOut</p>
     </button>
   );

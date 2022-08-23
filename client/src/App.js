@@ -9,7 +9,6 @@ import './App.css';
 const App = () => {
   return (
     <div className="container">
-      {/* <Upload /> */}
       <Home />
     </div>
   );
