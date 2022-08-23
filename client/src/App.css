@@ -2,9 +2,59 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  text-align: center;
+}
+
+.imgsContainer {
+  width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  border-radius: 8px;
+}
+
+.imgItem {
+  width: 300px;
+  height: 185px;
+}
+
+.img {
+  width: 100%;
+}
+
+.imgItem:nth-child(odd) {
+  margin: 0 10px 0 0;
+}
+
+.container {
+  background: url("./images/backgroundimg.png") 0.75%;
+  background-repeat: repeat;
+  height: 100vh;
+}
+
+.imgButton {
+  margin: 15px auto 0;
+  display: block;
+  width: 150px;
+  height: 35px;
+}
+
+.uploadButton {
+    width: 150px;
+    height: 35px;
+}
+
+.formContainer {
+  width: 900px;
+  margin: 30px auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
